@@ -16,7 +16,8 @@ This diagram covers the same circuit for both speakers, left and right, they are
   
 **Into VU METER (+):** The rectified signal then enters the positive terminal of the VU meter, causing the needle to move according to the average level of the audio.  
   
-**Capacitor (C1) across the meter:** The capacitor is connected between METER (+) and METER (–). It smooths the rectified signal, turning sharp pulses into a more averaged voltage so the needle moves smoothly instead of jittering.  
+**Capacitor (C1) across the meter:** The 47 microfarad (µF) capacitor is connected between METER (+) and METER (–).  
+It smooths the rectified signal, turning sharp pulses into a more averaged voltage so the needle moves smoothly instead of jittering.  
   
 **Back to AMP SPEAKER (–):** Finally, the return path from METER (–) goes back to the amplifier’s negative speaker terminal, completing the circuit.  
 
