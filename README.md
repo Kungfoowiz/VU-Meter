@@ -8,7 +8,7 @@ This diagram covers the same circuit for both speakers, left and right, they are
 
 ### Signal Path Explanation
 
-####**From AMP SPEAKER (+):** The audio signal leaves the amplifier's positive speaker terminal.  
+##### **From AMP SPEAKER (+):** The audio signal leaves the amplifier's positive speaker terminal.  
 **Through Variable Resister (VR1):** The signal first passes through the 1,000 Ω potentiometer. This controls how strong the signal is that reaches the meter.  Turning it up increases meter movement (higher sensitivity), turning it down reduces movement.  
   
 **Through Diode (D1):** After VR1, the signal goes into the 1N60/BAT42 diode. The diode rectifies the AC audio into a pulsed DC signal so the meter can respond in one direction instead of swinging back and forth.  
