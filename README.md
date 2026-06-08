@@ -1,5 +1,5 @@
 # VU-Meter  
-Volume Unit (VU) Meter micro circuit project - modulates AC speaker output to DC VU Meter.  
+Volume Unit (VU) Meter micro circuit project - modulates from an AC speaker output to a DC VU Meter.  
   
 ## Circuit Diagram
 This diagram covers the same circuit for both speakers, left and right, they are identical.  
