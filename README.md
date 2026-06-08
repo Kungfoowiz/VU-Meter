@@ -3,7 +3,6 @@ Volume Unit (VU) Meter micro circuit project - modulates AC speaker output to DC
   
 ## Circuit Diagram
 This diagram covers the same circuit for both speakers, left and right, they are identical.  
-  
-<img width="725" height="252" alt="image" src="https://github.com/user-attachments/assets/a16b5f63-8955-42f6-ba05-b597c2d57e94" />
 
+<img width="690" height="322" alt="image" src="https://github.com/user-attachments/assets/1fca46ed-b556-46b5-b92b-a09f8f3cd755" />
 
