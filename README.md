@@ -1,12 +1,12 @@
 # VU-Meter  
 Volume Unit (VU) Meter micro circuit project - modulates AC speaker output to DC VU Meter.  
   
-### Circuit Diagram
+#### Circuit Diagram
 This diagram covers the same circuit for both speakers, left and right, they are identical.  
 
 <img width="552" height="216" alt="image" src="https://github.com/user-attachments/assets/b1344f87-e6d0-4ce3-8c80-fe140dcbc38d" />
 
-### Signal Path Explanation
+#### Signal Path Explanation
 
 **From AMP SPEAKER (+):** The audio signal leaves the amplifier's positive speaker terminal.  
 **Through Variable Resister (VR1):** The signal first passes through the 1,000 Ω potentiometer. This controls how strong the signal is that reaches the meter.  Turning it up increases meter movement (higher sensitivity), turning it down reduces movement.  
