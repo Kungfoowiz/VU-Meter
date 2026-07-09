@@ -2,24 +2,20 @@
 Volume Unit (VU) Meter micro circuit project - modulates from an AC speaker output to a DC VU Meter.  
   
 ## Circuit Diagram
-This diagram covers the same circuit for both speakers, left and right, they are identical.  
+This diagram shows the circuit and can be used for both left and right speakers.
 
 <img width="521" height="322" alt="image" src="https://github.com/user-attachments/assets/3325bed3-bec1-4e22-82a5-b87c1ab5841d" />
 
 ## Signal Path Explanation
 
-**From AMP SPEAKER (+):** The audio signal leaves the amplifier's positive speaker terminal.  
+**From Amp Speaker (+):** The audio signal leaves the amplifier's positive speaker terminal.  
   
-**Through Variable Resister (VR1):** The signal first passes through the 1,000 Ω potentiometer. This controls how strong the signal is that reaches the meter.  Turning it up increases meter movement (higher sensitivity), turning it down reduces movement.  
+**Through Variable Resister (VR1):** The signal first passes through the 1KΩ variable resistor (VR1), controlling strength of signal into the VU Meter. Increased resistance gives decreased sensitivity, weaker signal, and reduced VU meter movemement. 
   
-**Through Diode (D1):** After VR1, the signal goes into the 1N60/BAT42 diode. The diode rectifies the AC audio into a pulsed DC signal so the meter can respond in one direction instead of swinging back and forth.  
+**Through Diode (D1):** After VR1, the signal goes into the 1N60 (BAT42) diode (D1), which rectifies the alternating current (AC) audio signal into pulses of direct current (DC). 
   
-**Into VU METER (+):** The rectified signal then enters the positive terminal of the VU meter, causing the needle to move according to the average level of the audio.  
+**Into VU Meter (+):** The rectified DC signal from D1 then enters the positive (+) terminal of the VU Meter, causing the needle needle to move based on the average of the DC pulses.  
   
-**Capacitor (C1) across the meter:** The 47 microfarad (µF) capacitor is connected between METER (+) and METER (–).  
-It smooths the rectified signal, turning sharp pulses into a more averaged voltage so the needle moves smoothly instead of jittering.  
+**Capacitor (C1) across the VU Meter (-) and (+) termainsl:** The 47 microfarad (µF) capacitor is connected between VU Meter (+) and VU Meter (–) terminals, smoothing the rectified DC signal and turning sharp pulses into smooth pulses, by averaging the voltage and preventing needle jitter.  
   
-**Back to AMP SPEAKER (–):** Finally, the return path from METER (–) goes back to the amplifier’s negative speaker terminal, completing the circuit.  
-
-
-  
+**Back to Amp Speaker (–):** Finally, the return DC signal path from VU Meter (–) terminal goes back to the amplifier’s negative speaker terminal, completing the circuit.  
