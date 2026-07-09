@@ -16,6 +16,6 @@ This diagram shows the circuit and can be used for both left and right speakers.
   
 **Into VU Meter (+):** The rectified DC signal from D1 then enters the positive (+) terminal of the VU Meter, causing the needle needle to move based on the average of the DC pulses.  
   
-**Capacitor (C1) across the VU Meter (-) and (+) termainsl:** The 47 microfarad (µF) capacitor is connected between VU Meter (+) and VU Meter (–) terminals, smoothing the rectified DC signal and turning sharp pulses into smooth pulses, by averaging the voltage and preventing needle jitter.  
+**Capacitor (C1) across the VU Meter (-) and (+) termains:** The 47 microfarad (µF) capacitor is connected between VU Meter (+) and VU Meter (–) terminals, smoothing the rectified DC signal and turning sharp pulses into smooth pulses, by averaging the voltage and preventing needle jitter.  
   
 **Back to Amp Speaker (–):** Finally, the return DC signal path from VU Meter (–) terminal goes back to the amplifier’s negative speaker terminal, completing the circuit.  
