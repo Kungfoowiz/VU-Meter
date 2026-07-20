@@ -1,6 +1,8 @@
 # VU-Meter  
 Volume Unit (VU) Meter micro circuit project - modulates from an AC speaker output to a DC VU Meter.  
-https://github.com/user-attachments/assets/6bfb344d-8e18-45e6-b5f4-23b789286de7  
+  
+https://github.com/user-attachments/assets/a8d7fb70-e60c-4418-8006-6863ea896f44  
+
   
 ## Circuit Diagram
 This diagram shows the circuit and can be used for both left and right speakers.
@@ -20,3 +22,21 @@ This diagram shows the circuit and can be used for both left and right speakers.
 **Capacitor (C1) across the VU Meter (-) and (+) termains:** The 47 microfarad (µF) capacitor is connected between VU Meter (+) and VU Meter (–) terminals, smoothing the rectified DC signal and turning sharp pulses into smooth pulses, by averaging the voltage and preventing needle jitter.  
   
 **Back to Amp Speaker (–):** Finally, the return DC signal path from VU Meter (–) terminal goes back to the amplifier’s negative speaker terminal, completing the circuit.  
+
+  
+<img width="504" alt="941f92b7-8035-45ff-8b32-d8be38886f5b" src="https://github.com/user-attachments/assets/ca8d0cf4-85ca-4f9a-936f-2dc0f43dc122" />  
+
+  
+<img width="504" alt="dc6a33de-d280-4362-becf-5c78c7ca062e" src="https://github.com/user-attachments/assets/b64ee38f-698a-4116-8a9c-1f2687d84292" />  
+
+  
+<img width="504" alt="0e0de804-92ea-499d-882e-a3b39d6013d6" src="https://github.com/user-attachments/assets/e62d0325-8ac3-4586-a60d-9f4238fdaa0b" />  
+
+  
+<img width="504" alt="87c017db-489f-41a8-90d1-57d1e8d47be7" src="https://github.com/user-attachments/assets/1773a99c-6601-420f-a962-356c55de71f2" />  
+
+  
+<img width="504" alt="4f4e3594-ce92-4bbc-9b8c-68d7b64e6e25" src="https://github.com/user-attachments/assets/b08a7167-d1b8-4f01-bd2b-286d0d852faf" />  
+
+
+    
