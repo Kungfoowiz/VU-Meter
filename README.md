@@ -1,6 +1,6 @@
 # VU-Meter  
 Volume Unit (VU) Meter micro circuit project - modulates from an AC speaker output to a DC VU Meter.  
-[VU Meter prototype](https://github.com/user-attachments/assets/b2e8be08-348d-4bee-acb1-cc9d02aae9f9)  
+[VU Meter prototype](https://github-production-user-asset-6210df.s3.amazonaws.com/17824719/623837314-b2e8be08-348d-4bee-acb1-cc9d02aae9f9.mp4)  
   
 ## Circuit Diagram
 This diagram shows the circuit and can be used for both left and right speakers.
